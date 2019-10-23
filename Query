@@ -33,6 +33,6 @@ set @i=@i+1
 END
 
 --выборка Продукт-Категория
-SELECT *
+SELECT Product, Category
 FROM Categories INNER JOIN Products
 ON Categories.CategoryID = Products.ProductID
